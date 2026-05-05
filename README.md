@@ -5,25 +5,26 @@ The sources identify specific factors that directly influence burnout scores and
 Stress as the Primary Predictor: There is a strong positive correlation (0.75) between stress_level and burnout_score. Random Forest feature importance analysis also identifies stress_level as one of the most critical contributors to burnout.
 Work-Life Balance: This variable has the strongest inverse relationship with burnout (-0.49), suggesting that as work-life balance improves, burnout scores significantly decrease.
 Impact of Professional Support: Employees who have undergone therapy show a significantly lower average burnout score (1.78) compared to those who have not (2.22). Similarly, high manager support is linked to lower levels of stress, anxiety, depression, and burnout.
+ <Axes: >
 
-2. Behavioral & Lifestyle Insights
+3. Behavioral & Lifestyle Insights
 The data reveals how daily habits and social factors correlate with mental health:
 Social Support: A high social_support_score is strongly linked to reduced anxiety (-0.489 correlation) and lower depression scores.
 Sleep and Screen Time: sleep_hours negatively correlates with stress (-0.267), while increased screen time shows a positive correlation with anxiety scores (0.17).
 Physical Activity: Engaging in physical activity is shown to reduce depression scores; those exercising 7 days a week have a mean depression score of 2.82 compared to 3.24 for those with 0 days.
 
-3. Job Roles and Productivity
+4. Job Roles and Productivity
 Burnout by Role: Frontend Developers were found to have the highest average burnout score (2.126).
 Work-Life Balance: Product Managers were identified as having the worst work-life balance among the tech roles studied.
 Inefficiency and Satisfaction: There is a negligible correlation between work hours and job satisfaction across all roles. However, data suggests that employees with the highest work hours (Q4) tend to have slightly lower job satisfaction (5.48) compared to those in the lowest quartile (Q1: 5.51).
 Deadlines: Missing deadlines has a small but negative correlation with job satisfaction (-0.0046).
 
-4. Machine Learning Model Insights
+5. Machine Learning Model Insights
 The project successfully implemented two predictive models:
 Burnout Score Prediction: A Random Forest Regressor achieved an R² score of approximately 0.83, indicating it can explain 83% of the variance in burnout scores based on the provided features.
 Burnout Level Classification: A Logistic Regression pipeline (including StandardScaler and OneHotEncoder) achieved a near-perfect accuracy score of 0.999 for classifying burnout levels into Low, Moderate, or High.
 
-5. Organizational Factors
+6. Organizational Factors
 Company Size: The data suggests that company size (Startup, MNC, Mid-size, Large) has minimal impact on average stress levels, with all categories averaging around 5.78.
 Work Mode: There are only marginal differences in work-life balance and burnout scores between Remote, Hybrid, and Onsite workers. However, Hybrid and Remote workers showed a slightly higher percentage of individuals with "high screen time but low stress" (approx. 24%) compared to onsite workers (23.7%).
 
