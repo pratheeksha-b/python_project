@@ -5,7 +5,8 @@ The sources identify specific factors that directly influence burnout scores and
 Stress as the Primary Predictor: There is a strong positive correlation (0.75) between stress_level and burnout_score. Random Forest feature importance analysis also identifies stress_level as one of the most critical contributors to burnout.
 Work-Life Balance: This variable has the strongest inverse relationship with burnout (-0.49), suggesting that as work-life balance improves, burnout scores significantly decrease.
 Impact of Professional Support: Employees who have undergone therapy show a significantly lower average burnout score (1.78) compared to those who have not (2.22). Similarly, high manager support is linked to lower levels of stress, anxiety, depression, and burnout.
- <Axes: >
+<img width="547" height="552" alt="image" src="https://github.com/user-attachments/assets/67860d71-6598-425b-af17-ee53108d8493" />
+
 
 3. Behavioral & Lifestyle Insights
 The data reveals how daily habits and social factors correlate with mental health:
