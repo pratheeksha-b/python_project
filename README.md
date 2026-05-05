@@ -23,7 +23,6 @@ Burnout by Role: Frontend Developers were found to have the highest average burn
 Work-Life Balance: Product Managers were identified as having the worst work-life balance among the tech roles studied. <img width="584" height="561" alt="image" src="https://github.com/user-attachments/assets/db5014d8-7145-4583-8b33-6a799867af4e" />
 Inefficiency and Satisfaction: There is a negligible correlation between work hours and job satisfaction across all roles. However, data suggests that employees with the highest work hours (Q4) tend to have slightly lower job satisfaction (5.48) compared to those in the lowest quartile (Q1: 5.51). <img width="565" height="444" alt="image" src="https://github.com/user-attachments/assets/324c95a7-05ab-46fa-b155-a395de1167ad" />
 Deadlines: Missing deadlines has a small but negative correlation with job satisfaction (-0.0046).
-<img width="565" height="433" alt="image" src="https://github.com/user-attachments/assets/44b5cac9-d376-4d11-8626-622fb9665184" />
 
 4. Machine Learning Model Insights
 The project successfully implemented two predictive models:
@@ -32,7 +31,7 @@ Burnout Level Classification: A Logistic Regression pipeline (including Standard
 
 5. Organizational Factors
 Company Size: The data suggests that company size (Startup, MNC, Mid-size, Large) has minimal impact on average stress levels, with all categories averaging around 5.78.
-              stress_level
+              stress_level by 
 company_size	
 Large	        5.791370
 MNC	          5.779742
@@ -60,8 +59,8 @@ The data demonstrates a clear inverse relationship between burnout and job satis
 
 3. Demographic Consistency
 A surprising insight is that demographics and experience levels are almost identical across all three clusters. The average age (approximately 38) and average years of experience (approximately 5) do not significantly differ between those at low risk and those at high risk for burnout. This suggests that burnout in the tech industry is driven more by work environment, job roles, or individual circumstances rather than age or tenure.
-           age  	experience_years
-cluster		
+          Average age and  experience_years
+for cluster		
 0	      37.993321	  5.058065
 1	      37.903482	  5.063237
 2	      38.086204	  5.050102
