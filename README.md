@@ -71,3 +71,15 @@ Logistic Regression: This model achieved a remarkably high accuracy score of 99.
 PCA (Principal Component Analysis): Using 29 components, the model was able to explain over 91% of the total variance in the dataset. Reducing the data to just 2 principal components still allowed for a visual distinction between the three clusters, as shown in the scatter plot
 <img width="559" height="413" alt="image" src="https://github.com/user-attachments/assets/c8b2397b-5c75-4672-b782-53238370e06a" />
 
+RECOMMENDATIONS:
+
+1)Stress is the main reason behind burnout, so companies should try to reduce work pressure. This can be done by dividing work properly, avoiding too many meetings, and allowing employees to take mental health breaks when needed.
+
+2)Employees feel less burned out when they have a good work-life balance. Companies should make sure people don’t work beyond fixed hours, allow flexible timings, and encourage them to take breaks and holidays.
+
+3)Support from managers really matters. Managers should regularly talk to their team members, understand their problems, and be more approachable and supportive.
+
+4)Employees who take therapy or get support show lower burnout levels. So, companies should provide counseling services and create awareness so people feel comfortable talking about mental health.
+
+5)Simple habits like getting enough sleep, reducing screen time, and exercising can improve mental health. Companies can promote this by organizing wellness activities or fitness programs.
+
